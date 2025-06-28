@@ -34,8 +34,7 @@ Permite a los servidores **SA-MP** enviar mensajes directamente a canales de **D
 
 - Soporta ahora:  
   📍 Color personalizado para el embed (ejemplo: "Verde", "Rojo", "Azul").  
-  📍 Menciones directas en Discord (ejemplo: "@here", "@admins").
-
+  📍 Menciones directas en Discord (ejemplo: "@admins").
 ---
 
 ### 📌 Corrección importante
