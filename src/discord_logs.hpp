@@ -3,7 +3,7 @@
 
 #include "../lib/samp-plugin-sdk/amx/amx.h"
 
-cell n_discord(AMX* amx, cell* params);
-void SendDiscordLog(const char* canal, const char* message);
+void SendDiscordLog(const char* canal, const char* message, const char* colorNombre = "Blanco", const char* mention = "");
+cell AMX_NATIVE_CALL n_discord(AMX* amx, cell* params);
 
 #endif // DISCORD_HPP
