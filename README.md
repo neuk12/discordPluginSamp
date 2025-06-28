@@ -55,18 +55,18 @@ El texto estaba en codificación Windows-1252 (ANSI) y no se convertía correcta
 ---
 
 ### 📄 Ejemplo de uso
-
-DiscordSendMessage("bank", "El jugador depositó $5000.", "Verde");  
-DiscordSendMessage("staff", "El admin expulsó a un jugador.", "Rojo", "@here");
-
+  ```pawn
+    DiscordSendMessage("bank", "El jugador depositó $5000.", "Verde");  
+    DiscordSendMessage("staff", "El admin expulsó a un jugador.", "Rojo", "@here");
+  ```
 ---
 
 ### 📂 Ejemplo de `discord.ini`
-
-[Discord]  
-bank=https://discord.com/api/webhooks/xxxxxxxxxx/xxxxxxxxxxxxxxxx  
-staff=https://discord.com/api/webhooks/yyyyyyyyyy/yyyyyyyyyyyyyyyy
-
+ ```pawn
+  [Discord]  
+  bank=https://discord.com/api/webhooks/xxxxxxxxxx/xxxxxxxxxxxxxxxx  
+  staff=https://discord.com/api/webhooks/yyyyyyyyyy/yyyyyyyyyyyyyyyy
+ ```
 ---
 
 ### 📌 Nota
