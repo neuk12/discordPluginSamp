@@ -10,8 +10,10 @@ Un plugin para **San Andreas Multiplayer (SA-MP)** que permite enviar mensajes a
 - Configuración de webhooks desde archivo `.ini`.  
 - Comunicación HTTPS mediante **WinHTTP**.  
 - Native disponible para Pawn:  
-  native DiscordSendMessage(const canal[], const mensaje[]);
+ ```pawn
+    native DiscordSendMessage(const canal[], const mensaje[], const color[] = "Blanco", const mention[] = "");
 
+ ```
 ---
 
 ## 📦 Release: v1.1 - Primer Lanzamiento Estable
